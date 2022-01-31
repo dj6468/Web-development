@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    margin: 10px;
+  }
+
+.top{
+    background-color: rgb(71, 71, 71);
+    color: white;
+    margin: 0;
+    padding: 0%;
+    font-size: 19px;
+    
+}
+
+.top span{
+    color: rgb(214, 125, 22);
+    font-size: 50px;
+    font-style: none;
+
+}
+ 
+.top h1{
+    margin: 0;
+}
+
+.toplink ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+    background-color: rgba(10, 8, 8, 0.575);
+    font-size: 13px;
+}
+
+.toplink li{
+    float: left;
+    border-right: 1px solid black;
+}
+
+
+
+
+.right{
+    color: orange;
+}
+
+.toplink a{
+   display: block;
+   padding: 0 28px;
+   color: white;
+   text-decoration: none;
+ } 
+
+.right a {
+    color: orange;
+}
+
+.container a{
+    color: orange;
+}
+
+
+footer{
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+    padding: 1%;
+    font-size: large;
+
+}
+footer span{
+    color: orange;
+}
+
+img {
+    width: 80%;
+    height: 100%;
+}
